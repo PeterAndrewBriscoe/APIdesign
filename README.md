@@ -12,12 +12,13 @@ Our database is here to store your addresses and family members, so anyone can k
 
 ### Get
 This is where you get to look up your friends (or enemies...)
-/people - this will return an array of all people objects.
-/people/:id - this will show you the person you're looking for, returning an object.
-/people/:id/:postcode - this shall tell you all the places they live at, as an array of house objects.
-/:neighbourhoodPostcode/:ageBracket/:householdSize - this will return an array of all people in your postcode in the given age bracket and with the given household size.
+* /people - this will return an array of all people objects.
+* /people/:id - this will show you the person you're looking for, returning an object.
+* /people/:id/:postcode - this shall tell you all the places they live at, as an array of house objects.
+* /:neighbourhoodPostcode/:ageBracket/:householdSize - this will return an array of all people in your postcode in the given age bracket and with the given household size.
 
-id: the unique id of the person.
-neighbourhoodPostcode: the first 4 letters of a postcode, e.g. EX11.
-ageBracket: e.g. "18-24".
-householdSize: the size of the household, e.g. 5.
+#### Variables
+* id: the unique id of the person.
+* neighbourhoodPostcode: the first 4 letters of a postcode, e.g. EX11.
+* ageBracket: e.g. "18-24".
+* householdSize: the size of the household, e.g. 5.
