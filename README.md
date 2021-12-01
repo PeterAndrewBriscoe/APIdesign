@@ -7,8 +7,8 @@ Our database is here to store your addresses and family members, so anyone can k
 
 ## Actions you can do here
 ### Post
-/people/new to post who you are and any houses you own!
-/people/:id/house/new to add a new house so everyone can visit you!
+* /people/new to post who you are and any houses you own!
+* /people/:id/house/new to add a new house so everyone can visit you!
 
 ### Get
 This is where you get to look up your friends (or enemies...)
